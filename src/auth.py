@@ -1,7 +1,7 @@
 import hashlib
 import pickle
 import os
-
+####### this is a test
 def hash_password(password):
     return hashlib.md5(password.encode()).hexdigest()
 
